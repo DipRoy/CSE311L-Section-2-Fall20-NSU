@@ -1,0 +1,3 @@
+ELECT job_id, SUM(salary), AVG(salary), MAX(salary), MIN(salary)
+FROM employees WHERE department_id = '90' 
+GROUP BY job_id;
